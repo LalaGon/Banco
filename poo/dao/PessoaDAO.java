@@ -75,7 +75,7 @@ public class PessoaDAO {
 			return pessoas;
 		}
 		
-		//altera os dados de um pessoa do banco
+		//alterar os dados de uma pessoa no banco
 		public void update(Pessoa pessoa) {
 			
 			Connection con = ConnectionFactory.getConnection();
@@ -103,7 +103,7 @@ public class PessoaDAO {
 			}
 	    }
 		
-		//deletar uma pessoa do banco
+		//deletar uma pessoa no banco
 		public void delete(Pessoa pessoa) {
 			
 			Connection con = ConnectionFactory.getConnection();
