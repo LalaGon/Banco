@@ -12,7 +12,7 @@ import com.poo.model.Pessoa;
 
 public class PessoaDAO {
 	
-	//inserir aluno no banco CRUD - Create, Read, Update, Delete
+	//inserir pessoa no banco CRUD - Create, Read, Update, Delete
 		public void create(Pessoa pessoa)
 		{
 			Connection con = ConnectionFactory.getConnection();
@@ -75,7 +75,7 @@ public class PessoaDAO {
 			return pessoas;
 		}
 		
-		//altera os dados de um aluno do banco
+		//altera os dados de um pessoa do banco
 		public void update(Pessoa pessoa) {
 			
 			Connection con = ConnectionFactory.getConnection();
